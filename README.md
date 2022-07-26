@@ -21,20 +21,20 @@ Para utilizar o aplicativo é necessário
 
 Atendendo os requisitos acima basta efetuar:
 
-### `git clone`
+### `git clone https://github.com/adrianopantaleao/mmapp.git`
 
 
 Acessar a pasta backend
 
 ### `cd backend`
 
-Iniciar o servidor Node
+Instalar os módulos e iniciar o servidor Node
 
-### `npm start`
+### `npm install && npm start`
 
-Após a inicialização do servidor voltar para a pasta raíz e iniciar o servidor de front-end (React)
+Após a inicialização do servidor voltar para a pasta raíz, intalar os módulos e iniciar o servidor de front-end (React)
 
 ### `cd ..`
-### `npm start`
+### `npm install && npm start`
 
 Para acessar a aplicação utilize a url: [http://localhost:3000](http://localhost:3000) em seu navegador

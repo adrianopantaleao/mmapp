@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 import Header from "./Components/Layout/Header";
 import Footer from "./Components/Layout/Footer";
+import NotFound from "./Components/Layout/NotFound";
 import CreateEmployee from "./Components/Employee/Create";
 import EditEmployee from "./Components/Employee/Edit";
 import Employees from "./Components/Employee/List";
@@ -25,6 +26,7 @@ const App = () => {
                   <Route path="/create-employee" element={<CreateEmployee />} />
                   <Route path="/edit-employee/:id" element={<EditEmployee />} />
                   <Route path="/employees" element={<Employees />} />
+                  <Route path="*" element={<NotFound />} />
                 </Routes>
               </div>
             </Col>
